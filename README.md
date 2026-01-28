@@ -1,4 +1,4 @@
-# JAWAZAK — Digital Passport Portal (README)
+# JAWAZAK — Digital Passport Portal
 
 JAWAZAK is a fully digital passport-application platform for the Lebanese Ministry of Interior. It provides a user portal for online passport applications, biometric verification, document upload, payment, and an admin dashboard for staff review. The project is modular: the user portal, FaceTec biometric module, admin dashboard, and other pieces are developed as separate modules and integrated into a single workflow. The full project report with timeline, testing, and PM artifacts is in the project PDF. 
 
