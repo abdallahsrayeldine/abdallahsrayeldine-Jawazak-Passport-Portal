@@ -1,0 +1,55 @@
+.previous-applications {
+  padding: 12px;
+}
+.previous-applications h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.1rem;
+}
+.app-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 12px;
+  margin-top: 10px;
+  list-style: none;
+  padding: 0;
+}
+.app-card {
+  border: 1px solid var(--border-color, #e0e0e0);
+  border-radius: 8px;
+  padding: 10px;
+  background: var(--card-bg, #fff);
+  box-shadow: 0 1px 2px rgba(16,24,40,0.03);
+}
+.app-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.app-field {
+  font-size: 0.95rem;
+  margin: 4px 0;
+  color: var(--text-color, #111827);
+}
+.field-label {
+  color: var(--muted, #6b7280);
+  margin-right: 6px;
+  font-weight: 600;
+}
+.status-badge {
+  padding: 4px 8px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: white;
+}
+.status-pending { background: #f59e0b; }
+.status-verified { background: #10b981; }
+.status-rejected { background: #ef4444; }
+.status-unknown { background: #6b7280; }
+.loading, .error, .empty {
+  padding: 12px;
+  border-radius: 6px;
+  background: #fff;
+  border: 1px solid #eee;
+}

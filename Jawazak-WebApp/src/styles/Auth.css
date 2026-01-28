@@ -1,0 +1,16 @@
+.primary-btn {
+  background-color: #1a3d7c;
+  color: white;
+  padding: 12px 26px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  transition: 0.25s ease;
+}
+
+.primary-btn:hover {
+  background-color: #274f9f;
+}

@@ -1,0 +1,133 @@
+/* Wrapper */
+.signin-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* NEW → Background image instead of gradient */
+  background-image: url("../assets/bg.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  padding: 20px;
+  font-family: "Cairo", sans-serif;
+}
+
+/* Card */
+.signin-card {
+  background: #ffffff;
+  padding: 32px 40px;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Logo */
+.signin-logo {
+  width: 90px;
+  height: auto;
+  display: block;
+  margin: 0 auto 16px auto;
+  opacity: 0.95;
+}
+
+/* Title */
+.signin-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin: 0;
+  color: #0a3e7c;
+}
+
+.signin-subtitle {
+  margin-top: 4px;
+  font-size: 15px;
+  color: #555;
+}
+
+/* Form */
+.signin-form {
+  display: grid;
+  gap: 16px;
+  width: 100%;
+  margin-top: 24px;
+}
+
+.signin-label {
+  text-align: left;
+  font-weight: 600;
+  color: #333;
+  font-size: 14px;
+}
+
+.signin-input {
+  width: 100%;
+  padding: 10px 12px;
+  margin-top: 6px;
+  border: 1px solid #cfd8e3;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: 0.2s;
+  background: #fafafa;
+}
+
+.signin-input:focus {
+  border-color: #0a3e7c;
+  outline: none;
+  box-shadow: 0 0 6px rgba(10, 62, 124, 0.2);
+}
+
+/* Button */
+.signin-btn {
+  width: 100%;
+  background: #0a3e7c;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.signin-btn:hover {
+  background: #09406c;
+}
+
+.signin-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Error Message */
+.signin-error {
+  color: red;
+  font-size: 14px;
+  margin-top: -4px;
+  text-align: center;
+}
+
+/* Footer */
+.signin-footer {
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+.signin-footer a {
+  color: #0a3e7c;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.signin-footer a:hover {
+  text-decoration: underline;
+}
